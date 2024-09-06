@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../../Navbar/Navbar';
 import colombo_map from '../../../assets/colombo_map.png';
+import Footer from '../../Footer/Footer';
 
 const Delivery: React.FC = () => {
     return (
@@ -29,6 +30,7 @@ const Delivery: React.FC = () => {
                 {/* Include a map or an image of delivery areas */}
                 <img src={colombo_map} alt="Delivery Areas Map" className="w-full h-64 object-cover rounded-md" />
             </section>
+            <Footer />
         </div>
     );
 };

@@ -3,6 +3,8 @@ import Navbar from '../../Navbar/Navbar';
 import axios from 'axios';
 import { useCartContext } from '../../context/CartContext';
 import { useNavigate } from 'react-router-dom';
+import Footer from '../../Footer/Footer';
+
 
 interface Item {
     id: number;
@@ -230,6 +232,8 @@ const Menu: React.FC = () => {
                     </div>
                 </div>
             )}
+
+<Footer />
         </div>
     );
 };

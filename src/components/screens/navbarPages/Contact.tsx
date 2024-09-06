@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../../Navbar/Navbar';
-
+import Footer from '../../Footer/Footer';
 
 const Contact: React.FC = () => {
     return (
@@ -21,10 +21,11 @@ const Contact: React.FC = () => {
             {/* Contact Information Section */}
             <section className="contact-info p-8">
                 <h3 className="text-xl font-bold mb-2">Our Address</h3>
-                <p>123 Korean Food Street, Foodie City, FC 12345</p>
-                <p>Email: foodie@gmail.com</p>
-                <p>Phone: +94766544332</p>
+                <p>Sri Soratha mawatha, 23 A Wijerama junction, Nugegoda 10250, Sri Lanka.</p>
+                <p>Email: info@ABCRestaurant.lk</p>
+                <p>Phone: +94725500881</p>
             </section>
+            <Footer />
         </div>
     );
 };

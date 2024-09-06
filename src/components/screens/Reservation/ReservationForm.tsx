@@ -6,6 +6,7 @@ import Reservation from "../../../assets/Reservation.jpg";
 import Navbar from '../../Navbar/Navbar';
 import OverlayPanel from '../../OverlayPanel/OverlayPanel';
 import Swal from 'sweetalert2';
+import Footer from '../../Footer/Footer';
 
 const ReservationForm = () => {
     const [reservationDate, setReservationDate] = useState('');
@@ -127,6 +128,7 @@ const ReservationForm = () => {
                     )}
                 </OverlayPanel>
             </div>
+            <Footer />
         </>
     );
 };
