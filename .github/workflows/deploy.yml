@@ -38,7 +38,7 @@ jobs:
       - name: 📂 Sync folders and files to the server
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-              server: ftp.tourglobalhub.com
+              server: ftp.eusoftlab.com
               username: ${{ secrets.FTP_USERNAME }}
               password: ${{ secrets.FTP_PASSWORD }}
               local-dir: build/
